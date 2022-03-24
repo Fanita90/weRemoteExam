@@ -18,11 +18,12 @@
 .heroDesktop {
   display: none;
 }
-//.sliderContent,.sliderContentItem{
-//    width: 100%;
-//    height: 100vh;
-//    position: relative;
-//}
+
+.sliderContentItem img{
+    width: 100%;
+    
+    object-fit: cover;
+}
 @media (min-width: 1200px) {
   .heroDesktop {
     display: block;
